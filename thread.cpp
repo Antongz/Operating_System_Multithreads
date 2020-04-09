@@ -13,7 +13,7 @@ void *threadSum(void *var)
   
 int main() 
 {   system("clear");
-    pthread_t tid[3];
+    pthread_t tid[3]; // Id or Identifier to the thread
     // Creating 3 threads
     for (int i = 0; i < 3; i++){
     	/*
